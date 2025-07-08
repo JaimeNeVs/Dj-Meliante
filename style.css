@@ -7,10 +7,14 @@
 
 body {
   margin: 0;
+  padding: 0;
   font-family: 'arapey', serif;
   background-color: #2b2c23;
-  background-image: url(Imagens/fundodj.jpg); /* imagem de fundo */
+  background-image: url(Imagens/gimp.jpeg); /* imagem de fundo */
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   color: #f0f0f0;
   line-height: 1.6;
 } 
@@ -49,7 +53,7 @@ body {
 
 .info h2 {
   font-family: 'libre baskerville', serif;
-  font-size: 3rem;
+  font-size: 4rem;
   margin: 0;
   color: #fff6eb;
   font-weight: bolder;
@@ -63,7 +67,7 @@ body {
 
 .bio {
   text-align: justify;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .galeria {
@@ -84,7 +88,7 @@ body {
 .texto {
   margin: 1.5rem 0;
   text-align: justify;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .video-placeholder {
@@ -123,6 +127,7 @@ body {
 }
 
 .contato {
+  font-family: 'arapey', serif;
   margin-top: 3rem;
   text-align: center;
   font-size: 18px;
@@ -130,7 +135,16 @@ body {
   font-weight: bold;
 }
 
+.contato .material-icons {
+  vertical-align: middle;
+  font-size: 22px;
+  margin-right: 8px;
+  position: relative;
+  top: 3px; /* ajuste fino para centralizar melhor */
+}
+
 .contato a {
+  font-family: 'arapey', serif;
   color: #fff6eb;
   text-decoration: none;
   font-weight: bold;
